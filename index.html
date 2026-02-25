@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" href="logo.png">
 
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="theme-override.css">
 </head>
 <style>
   .logo img {
@@ -33,7 +34,43 @@
   }
 </style>
 <body>
-<style>:root{--accent:#FF4500;--accent-opaque:rgba(255,69,0,0.10);--accent-opaque-strong:rgba(255,69,0,0.40);--accent-border:rgba(255,69,0,0.25);--accent-grad1:#FF5722;--accent-grad2:#FF8C00} .logo span,.hero-text h1 span,h2 span,.stat h3{color:var(--accent)} .badge,.primary,.plan-btn,.price-btn{background:var(--accent);color:#fff} .nav-links li a:hover{background:var(--accent);color:#fff} .burger span{background-color:var(--accent)} .hero-tags span{background:var(--accent-opaque);border:1px solid var(--accent-border)} .stat{background:var(--accent-opaque);border:1px solid var(--accent-border)} .icon{background:linear-gradient(135deg,var(--accent-grad1),var(--accent-grad2));color:#fff} .primary:hover{box-shadow:0 6px 15px rgba(255,69,0,0.5)} .feature-card:hover{border:1px solid var(--accent)} </style>
+<style>
+/* Comprehensive light theme override */
+:root{--accent:#FF4500;--accent-light:rgba(255,69,0,0.1);--accent-border:rgba(255,69,0,0.25);--bg:#f5f5f5;--text:#1a1a1a}
+*{color:#1a1a1a!important}
+body,html,section,div{background:#f5f5f5!important}
+.primary, .price-btn, .plan-btn, .plan-btn button{background:#FF4500!important;color:#fff!important;text-shadow:none!important}
+.primary:hover, .price-btn:hover, .plan-btn:hover{box-shadow:0 8px 20px rgba(255,69,0,0.5)!important}
+.badge{background:#FF4500!important;color:#fff!important}
+h1,h2,h3,h4,h5,h6{color:#1a1a1a!important}
+h2 span, h1 span, .stat h3{color:#FF4500!important}
+.secondary{background:rgba(255,69,0,0.08)!important;color:#1a1a1a!important;border:1px solid rgba(255,69,0,0.25)!important}
+.nav-links li a{color:#333!important;background:rgba(0,0,0,0.05)!important}
+.nav-links li a:hover{background:#FF4500!important;color:#fff!important}
+.hero{background:linear-gradient(160deg,#f5f5f5,#efefef)!important;border-bottom:3px solid #FF4500!important}
+.feature-card, .how-card, .setup-card{background:rgba(255,255,255,0.85)!important;border:1px solid #ddd!important;color:#1a1a1a!important}
+.feature-card:hover, .how-card:hover, .setup-card:hover{border:2px solid #FF4500!important;box-shadow:0 8px 20px rgba(255,69,0,0.2)!important}
+.icon{background:linear-gradient(135deg,#FF5722,#FF8C00)!important;color:#fff!important;box-shadow:0 8px 20px rgba(255,69,0,0.4)!important}
+.stat{background:rgba(255,69,0,0.1)!important;border:1px solid rgba(255,69,0,0.25)!important;color:#1a1a1a!important}
+.review{background:rgba(255,255,255,0.8)!important;color:#1a1a1a!important;border:1px solid #ddd!important}
+.review:hover{border:2px solid #FF4500!important}
+.stars{color:#FF4500!important}
+.price{background:rgba(255,255,255,0.85)!important;color:#1a1a1a!important;border:1px solid #ddd!important}
+.price h1, .price h4{color:#FF4500!important}
+.check li{background:rgba(255,69,0,0.1)!important;border:1px solid rgba(255,69,0,0.25)!important;color:#1a1a1a!important}
+.coverage{background:#f5f5f5!important;color:#1a1a1a!important}
+.coverage-grid span{background:rgba(255,69,0,0.05)!important;border:1px solid rgba(255,69,0,0.25)!important;color:#1a1a1a!important}
+.coverage-grid span:hover{background:rgba(255,69,0,0.15)!important;border:1px solid #FF4500!important}
+footer{background:rgba(0,0,0,0.08)!important;color:#1a1a1a!important}
+a{color:#FF4500!important}
+.subtitle, .about-section p{color:#555!important}
+</style>
+
+<style>.epg-section,.vod-section,.devices{background:#f5f5f5!important;color:#1a1a1a!important} .epg-section h2 span,.vod-section h2 span{color:#FF4500} .check li{background:rgba(255,69,0,0.08)!important;border:1px solid rgba(255,69,0,0.2)!important;color:#1a1a1a} .check li::before{content:"";color:#FF4500;margin-right:5px} .coverage,.coverage-grid span{background:#f5f5f5!important;color:#1a1a1a!important} .coverage-grid span{border:1px solid rgba(255,69,0,0.2)!important} .coverage-grid span:hover{border:1px solid rgba(255,69,0,0.35)!important;background:rgba(255,69,0,0.08)!important} .pricing-grid{background:#f5f5f5!important} .price{background:rgba(255,255,255,0.8)!important;border:1px solid #ddd!important;color:#1a1a1a!important} .price h1{color:#FF4500} .review{background:rgba(255,255,255,0.7)!important;border:1px solid #ddd!important;color:#1a1a1a!important} .review:hover{border:1px solid rgba(255,69,0,0.3)!important} .stars{color:#FF4500!important} .center-header{background:#f5f5f5;color:#1a1a1a} .setup-card{background:rgba(255,255,255,0.7);border:1px solid #ddd;color:#1a1a1a} .setup-card h3{color:#FF4500} .setup-card .check li{background:rgba(255,69,0,0.08);border:1px solid rgba(255,69,0,0.2)} footer{background:rgba(0,0,0,0.1);color:#1a1a1a} h2,h3,h4,.how-card h3,.feature-card h3,.price h3{color:#1a1a1a} .vod-section img,.two-grid img{box-shadow:0 15px 35px rgba(0,0,0,0.15)}</style>
+
+<style>:root{--accent:#FF4500;--accent-opaque:rgba(255,69,0,0.08);--accent-border:rgba(255,69,0,0.25);--accent-grad1:#FF5722;--accent-grad2:#FF8C00} *{color:#1a1a1a} body,html{background:#f5f5f5;color:#1a1a1a} .hero{background:linear-gradient(160deg,#f5f5f5,#e8e8e8);border-bottom:2px solid var(--accent)} h2 span,.hero-text h1 span,.stat h3,.badge{color:var(--accent)} .badge{background:var(--accent);color:#fff} .primary,.price-btn,.plan-btn{background:var(--accent);color:#fff;border:none} .primary:hover,.plan-btn:hover{box-shadow:0 6px 15px rgba(255,69,0,0.4);transform:translateY(-2px)} .nav-links li a{color:#333;background:rgba(0,0,0,0.05);border-radius:20px} .nav-links li a:hover{background:var(--accent);color:#fff} .burger span{background-color:var(--accent)} .hero-tags span{background:var(--accent-opaque);border:1px solid var(--accent-border);color:#333} .stat{background:var(--accent-opaque);border:1px solid var(--accent-border)} .icon{background:linear-gradient(135deg,var(--accent-grad1),var(--accent-grad2));color:#fff;box-shadow:0 8px 20px rgba(255,69,0,0.3)} .feature-card{background:rgba(255,255,255,0.7);border:1px solid #ddd;color:#1a1a1a} .feature-card:hover{transform:translateY(-8px);box-shadow:0 20px 45px rgba(255,69,0,0.2);border:1px solid var(--accent)} .feature-card h3{color:#1a1a1a} .how-card{background:rgba(255,255,255,0.6);color:#1a1a1a;border:1px solid #ddd} .how-card h1{color:var(--accent)} .how-card:hover{transform:translateY(-8px);background:rgba(255,255,255,0.8)} .features-section,.how-section,.about-section,.coverage,.reviews,.cta,.devices,.setup-guide,.pricing{background:#f5f5f5;color:#1a1a1a} .cta{background:linear-gradient(90deg,#f5f5f5,#efefef)} .secondary{background:rgba(0,0,0,0.1);color:#1a1a1a;border:1px solid #ccc} .secondary:hover{background:rgba(0,0,0,0.15)} a{color:var(--accent)} .subtitle{color:#555} </style>
+
+
 
 
 
@@ -119,32 +156,32 @@
 
   <div class="features-grid">
     <div class="feature-card">
-      <div class="icon">4K</div>
+      <div class="icon">D_S</div>
       <h3>Ultra HD Streams</h3>
       <p>Dedicated Ultra HD categories for movies, series, and sports.</p>
     </div>
     <div class="feature-card">
-      <div class="icon">4K</div>
+      <div class="icon">D_S</div>
       <h3>Fast, Stable Routing</h3>
       <p>Optimized routing keeps streams smooth even during peak hours.</p>
     </div>
     <div class="feature-card">
-      <div class="icon">4K</div>
+      <div class="icon">D_S</div>
       <h3>Monitored 24/7</h3>
       <p>Round-the-clock monitoring with real human support.</p>
     </div>
     <div class="feature-card">
-      <div class="icon">4K</div>
+      <div class="icon">D_S</div>
       <h3>Movies & Series VOD</h3>
       <p>Huge VOD library with trending movies and series updates.</p>
     </div>
     <div class="feature-card">
-      <div class="icon">4K</div>
+      <div class="icon">D_S</div>
       <h3>Clean Categories</h3>
       <p>Channels organized by region, sports, kids, and premium packs.</p>
     </div>
     <div class="feature-card">
-      <div class="icon">4K</div>
+      <div class="icon">D_S</div>
       <h3>Easy Setup</h3>
       <p>Works with Tivimate, IPTV Smarters, GSE using M3U or Xtream.</p>
     </div>
@@ -899,6 +936,12 @@ ul.check li::before {
 <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
 
 
 

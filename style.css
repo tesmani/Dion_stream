@@ -1,18 +1,18 @@
-?* {
+﻿?* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: #031025;
-  color: white;
+  background: #f5f5f5;
+  color: #1a1a1a;
   font-family: Segoe UI, sans-serif;
 }
 
 /* ============ NAVBAR ============ */
 .hero {
-  background: linear-gradient(160deg, #0a2b4f, #031025);
+  background: linear-gradient(160deg, #f5f5f5, #f5f5f5);
   min-height: auto;
   padding: 20px;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .logo span {
-  color: #00ffd5;
+  color: #FF4500;
 }
 
 .nav-links {
@@ -46,7 +46,7 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #fff;
+  color: #1a1a1a;
   padding: 8px 14px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.08);
@@ -56,18 +56,18 @@ body {
 }
 
 .nav-links li a:hover {
-  background: #00ffd5;
-  color: #000;
+  background: #FF4500;
+  color: #fff;
 }
 
 .plan-btn {
-  background: #00ffd5;
+  background: #FF4500;
   border: none;
   padding: 10px 18px;
   border-radius: 20px;
   font-weight: 600;
   cursor: pointer;
-  color: #000;
+  color: #fff;
   font-size: 14px;
   transition: all 0.25s ease;
   flex-shrink: 0;
@@ -93,7 +93,7 @@ body {
 .burger span {
   width: 100%;
   height: 3px;
-  background-color: #00ffd5;
+  background-color: #FF4500;
   border-radius: 2px;
   display: block;
   transition: 0.3s ease-in-out;
@@ -124,7 +124,7 @@ body {
 }
 
 .hero-text h1 span {
-  color: #00ffd5;
+  color: #FF4500;
 }
 
 .hero-text p {
@@ -134,13 +134,13 @@ body {
 }
 
 .badge {
-  background: #00ffd5;
+  background: #FF4500;
   padding: 8px 14px;
   border-radius: 20px;
   font-size: 12px;
   display: inline-block;
   margin-bottom: 15px;
-  color: #000;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -152,11 +152,11 @@ body {
 }
 
 .hero-tags span {
-  background: rgba(0, 255, 213, 0.1);
+  background: rgba(255, 69, 0, 0.1);
   padding: 8px 12px;
   border-radius: 12px;
   font-size: 13px;
-  border: 1px solid rgba(0, 255, 213, 0.2);
+  border: 1px solid rgba(255, 69, 0, 0.2);
 }
 
 .hero-buttons {
@@ -179,18 +179,18 @@ body {
 }
 
 .primary {
-  background: #00ffd5;
-  color: #000;
+  background: #FF4500;
+  color: #fff;
 }
 
 .primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0, 255, 213, 0.4);
+  box-shadow: 0 6px 15px rgba(255, 69, 0, 0.4);
 }
 
 .secondary {
   background: rgba(255, 255, 255, 0.08);
-  color: #fff;
+  color: #1a1a1a;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -199,8 +199,8 @@ body {
 }
 
 .price-btn {
-  background: #00ffd5;
-  color: #000;
+  background: #FF4500;
+  color: #fff;
   width: 100%;
 }
 
@@ -212,15 +212,15 @@ body {
 }
 
 .stat {
-  background: rgba(0, 255, 213, 0.08);
+  background: rgba(255, 69, 0, 0.08);
   padding: 20px;
   border-radius: 12px;
   text-align: center;
-  border: 1px solid rgba(0, 255, 213, 0.2);
+  border: 1px solid rgba(255, 69, 0, 0.2);
 }
 
 .stat h3 {
-  color: #00ffd5;
+  color: #FF4500;
   font-size: 24px;
   margin-bottom: 8px;
 }
@@ -258,7 +258,7 @@ h2 {
 }
 
 h2 span {
-  color: #00ffd5;
+  color: #FF4500;
 }
 
 .subtitle {
@@ -277,19 +277,19 @@ h2 span {
 }
 
 .feature-card {
-  background: linear-gradient(145deg, #0b1f3a, #0f2a4d);
+  background: linear-gradient(145deg, #f5f5f5, #f5f5f5);
   padding: 35px 25px;
   border-radius: 18px;
   transition: all 0.35s ease;
   cursor: pointer;
-  border: 1px solid rgba(0, 255, 200, 0.08);
+  border: 1px solid rgba(255, 69, 0, 0.08);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .feature-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 45px rgba(0, 255, 200, 0.25);
-  border: 1px solid rgba(0, 255, 200, 0.3);
+  box-shadow: 0 20px 45px rgba(255, 69, 0, 0.25);
+  border: 1px solid rgba(255, 69, 0, 0.3);
 }
 
 .icon {
@@ -301,16 +301,16 @@ h2 span {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #00ffc8, #00bfff);
-  color: #001b2e;
+  background: linear-gradient(135deg, #FF4500, #FF4500);
+  color: #1a1a1a;
   font-weight: bold;
-  box-shadow: 0 8px 20px rgba(0, 255, 200, 0.35);
+  box-shadow: 0 8px 20px rgba(255, 69, 0, 0.35);
 }
 
 .feature-card h3 {
   font-size: 18px;
   margin-bottom: 12px;
-  color: #ffffff;
+  color: #1a1a1afff;
 }
 
 .feature-card p {
@@ -328,7 +328,7 @@ h2 span {
 }
 
 .how-card {
-  background: #071c38;
+  background: #f5f5f5;
   padding: 40px 30px;
   border-radius: 18px;
   transition: all 0.25s ease;
@@ -340,7 +340,7 @@ h2 span {
 }
 
 .how-card h1 {
-  color: #00ffd5;
+  color: #FF4500;
   font-size: 48px;
   margin-bottom: 15px;
 }
@@ -400,7 +400,7 @@ h2 span {
 
 /* ============ COVERAGE SECTION ============ */
 .coverage {
-  background: radial-gradient(circle at center, #102a4a 0%, #081b33 60%, #061424 100%);
+  background: radial-gradient(circle at center, #f5f5f5 0%, #f5f5f5 60%, #f5f5f5 100%);
 }
 
 .coverage h2 {
@@ -425,13 +425,13 @@ h2 span {
   font-size: 14px;
   font-weight: 500;
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(0, 255, 200, 0.15);
+  border: 1px solid rgba(255, 69, 0, 0.15);
   transition: all 0.25s ease;
 }
 
 .coverage-grid span:hover {
-  border: 1px solid rgba(0, 255, 200, 0.35);
-  background: rgba(0, 255, 200, 0.08);
+  border: 1px solid rgba(255, 69, 0, 0.35);
+  background: rgba(255, 69, 0, 0.08);
 }
 
 /* ============ REVIEWS SECTION ============ */
@@ -443,21 +443,21 @@ h2 span {
 }
 
 .review {
-  background: #071c38;
+  background: #f5f5f5;
   padding: 30px;
   border-radius: 16px;
   text-align: center;
   transition: all 0.25s ease;
-  border: 1px solid rgba(0, 255, 200, 0.1);
+  border: 1px solid rgba(255, 69, 0, 0.1);
 }
 
 .review:hover {
   transform: translateY(-8px);
-  border: 1px solid rgba(0, 255, 200, 0.3);
+  border: 1px solid rgba(255, 69, 0, 0.3);
 }
 
 .stars {
-  color: #00ffd5;
+  color: #FF4500;
   font-size: 18px;
   margin-bottom: 12px;
 }
@@ -482,7 +482,7 @@ h2 span {
 
 /* ============ DEVICES SECTION ============ */
 .devices {
-  background: rgba(0, 255, 213, 0.08);
+  background: rgba(255, 69, 0, 0.08);
   padding: 60px 30px;
 }
 
@@ -518,17 +518,17 @@ h2 span {
 }
 
 .price {
-  background: #071c38;
+  background: #f5f5f5;
   padding: 30px;
   border-radius: 16px;
   transition: all 0.25s ease;
-  border: 1px solid rgba(0, 255, 200, 0.1);
+  border: 1px solid rgba(255, 69, 0, 0.1);
 }
 
 .price:hover {
   transform: translateY(-8px);
-  border: 1px solid rgba(0, 255, 200, 0.3);
-  box-shadow: 0 15px 35px rgba(0, 255, 200, 0.15);
+  border: 1px solid rgba(255, 69, 0, 0.3);
+  box-shadow: 0 15px 35px rgba(255, 69, 0, 0.15);
 }
 
 .price h3 {
@@ -540,7 +540,7 @@ h2 span {
 .price h1 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #00ffd5;
+  color: #FF4500;
 }
 
 /* ============ WHY SECTION ============ */
@@ -555,10 +555,10 @@ h2 span {
 
 .check li {
   font-size: 14px;
-  background: rgba(0, 255, 213, 0.08);
+  background: rgba(255, 69, 0, 0.08);
   padding: 10px 16px;
   border-radius: 20px;
-  border: 1px solid rgba(0, 255, 213, 0.2);
+  border: 1px solid rgba(255, 69, 0, 0.2);
 }
 
 .check.center {
@@ -689,7 +689,7 @@ footer p {
     left: 0;
     right: 0;
     width: 100%;
-    background: #031025;
+    background: #f5f5f5;
     flex-direction: column !important;
     gap: 0 !important;
     padding: 0 !important;
@@ -698,7 +698,7 @@ footer p {
     flex: none !important;
     display: none !important;
     z-index: 1000;
-    border-bottom: 2px solid rgba(0, 255, 213, 0.2);
+    border-bottom: 2px solid rgba(255, 69, 0, 0.2);
     max-height: 80vh;
     overflow-y: auto;
   }
@@ -721,18 +721,18 @@ footer p {
     transition: all 0.2s ease;
   }
   .nav-links li a:hover {
-    background: rgba(0, 255, 213, 0.15) !important;
-    color: #00ffd5 !important;
+    background: rgba(255, 69, 0, 0.15) !important;
+    color: #FF4500 !important;
     padding-left: 25px;
   }
   .nav-links li.mobile-plan-btn {
     width: 100%;
     margin: 12px 0 0 0;
     padding-top: 12px;
-    border-top: 1px solid rgba(0, 255, 213, 0.2);
+    border-top: 1px solid rgba(255, 69, 0, 0.2);
   }
   .nav-links li.mobile-plan-btn a {
-    background: #00ffd5 !important;
+    background: #FF4500 !important;
     color: #000 !important;
     display: block !important;
     text-align: center;
@@ -747,7 +747,7 @@ footer p {
     background: #00e6c0 !important;
     color: #000 !important;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 255, 213, 0.4);
+    box-shadow: 0 4px 12px rgba(255, 69, 0, 0.4);
     padding-left: 20px !important;
   }
   /* HERO SECTION */
@@ -1190,3 +1190,6 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+
+
